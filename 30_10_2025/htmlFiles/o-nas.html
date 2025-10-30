@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>O nas</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container">
+    <h1 class="brand">Moja Firma</h1>
+    <nav class="main-nav">
+      <a href="/">Strona główna</a>
+      <a href="/o-nas">O nas</a>
+      <a href="/oferta">Oferta</a>
+      <a href="/kontakt">Kontakt</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <h1>O firmie</h1>
+  <p>Jesteśmy zespołem specjalistów IT z wieloletnim doświadczeniem. Nasza firma powstała z pasji do technologii.</p>
+  <p>Tworzymy strony internetowe, aplikacje webowe i systemy informatyczne dopasowane do potrzeb klientów.</p>
+
+  <div class="gallery">
+    <div class="slider" id="slider">
+      <img src="/static/zdj1.jpg" alt="Zdjęcie 1">
+      <img src="/static/zdj2.jpg" alt="Zdjęcie 2">
+      <img src="/static/zdj3.jpg" alt="Zdjęcie 3">
+    </div>
+    <div class="slider-controls">
+      <button id="prev">◀</button>
+      <button id="next">▶</button>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>Maria Koczorowska</p>
+  </div>
+</footer>
+
+<script>
+  const slider = document.getElementById('slider');
+  const imgs = slider.querySelectorAll('img');
+  let idx = 0;
+  function show(i){ imgs.forEach((img, j)=>img.style.display=j===i?'block':'none'); }
+  document.getElementById('prev').onclick=()=>{ idx=(idx-1+imgs.length)%imgs.length; show(idx); };
+  document.getElementById('next').onclick=()=>{ idx=(idx+1)%imgs.length; show(idx); };
+  show(0);
+</script>
+</body>
+</html>
