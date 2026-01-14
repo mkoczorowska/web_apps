@@ -20,7 +20,7 @@ app.use("/wpisy", wpisRouter);
 app.use("/komentarze", komentarzRouter);
 
 app.get("/", (req, res) => {
-  res.send("Blog backend działa");
+  res.send("Blog backend działa.");
 });
 
 app.use(errorHandler);
