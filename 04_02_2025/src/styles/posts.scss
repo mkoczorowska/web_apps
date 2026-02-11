@@ -1,0 +1,71 @@
+@use 'variables' as *;
+
+.post-card {
+  background: $surface;
+  border-radius: $radius-lg;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: $shadow;
+  transition: transform $transition, box-shadow $transition;
+
+  &:hover {
+    transform: translateY(-6px);
+    box-shadow: $shadow-lg;
+  }
+
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 1.25rem;
+    color: $primary-dark;
+  }
+
+  p {
+    color: $text-muted;
+    margin-bottom: 1.2rem;
+  }
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    color: $primary;
+    font-weight: 600;
+    text-decoration: none;
+    transition: gap $transition, color $transition;
+
+    &:hover {
+      gap: 0.6rem;
+      color: $primary-dark;
+    }
+  }
+}
+
+/* Strona pojedynczego posta */
+article {
+  background: $surface;
+  border-radius: $radius-lg;
+  padding: 3rem;
+  box-shadow: $shadow;
+
+  h1 {
+    margin-top: 0;
+    font-size: 2rem;
+    color: $primary-dark;
+  }
+
+  p {
+    font-size: 1.05rem;
+  }
+
+  strong {
+    color: $text;
+  }
+}
+
+/* Komentarze */
+article .post-card {
+  background: #f9fafb;
+  box-shadow: none;
+  border: 1px solid #e5e7eb;
+}
