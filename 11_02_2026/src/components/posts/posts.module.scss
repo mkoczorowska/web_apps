@@ -1,0 +1,27 @@
+.Posts{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: whitesmoke;
+
+  h1{
+    color: plum;
+    text-transform: uppercase;
+  }
+
+  li{
+    display: block;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    color: black;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease-in-out;
+    margin: 5px;
+
+    &:hover {
+      background-color: rgba(216,191,216,0.5);
+      color: black;
+    }
+  }
+}
