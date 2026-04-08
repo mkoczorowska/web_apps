@@ -1,0 +1,20 @@
+.Post {
+  padding: 2rem;
+
+  h1 {
+    color: plum;
+    text-transform: uppercase;
+  }
+
+  .author {
+    color: plum;
+    font-weight: bold;
+  }
+
+  .comment {
+    background: thistle;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+  }
+}

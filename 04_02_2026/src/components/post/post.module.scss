@@ -1,13 +1,11 @@
-.Homepage{
+.Post{
   width: 100%;
-  height: 85vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: whitesmoke;
+  justify-self: center;
+  padding: 2rem;
 
-  h1{
-    color: plum;
-    text-transform: uppercase;
-  }
 }

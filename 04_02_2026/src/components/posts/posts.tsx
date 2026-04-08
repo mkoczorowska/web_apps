@@ -40,7 +40,7 @@ export default function Posts(){
                                     {p.body.substring(0, 50)}...
                                 </p>
                                 <Link
-                                    to={'/posts/post/' + p.id}
+                                    to={'/posts/' + p.id}
                                     className={styles.PostsPostLink}
                                 >
                                     Read more

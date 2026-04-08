@@ -5,6 +5,7 @@ import Navbar from "./components/navbar/navbar";
 import Homepage from "./components/homepage/homepage";
 import Categories from "./components/categories/categories";
 import Posts from "./components/posts/posts";
+import Post from "./components/post/post";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
             <Route path="/" element={<Homepage/>} />
             <Route path="/categories" element={<Categories/>} />
             <Route path="/posts" element={<Posts/>} />
+            <Route path="/posts/:id" element={<Post/>} />
         </Routes>
       </BrowserRouter>
   );
