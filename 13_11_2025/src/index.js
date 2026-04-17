@@ -1,5 +1,5 @@
 require("./mongo");
-
+//dodac cors
 const express = require('express');
 
 const kategoriaRouter = require("./routers/kategoria.router");
@@ -10,7 +10,7 @@ const accessLogger = require("./middlewares/accessLogger");
 const errorHandler = require("./middlewares/errorHandler");
 
 const app = express()
-
+//app.use(cors)
 app.use(express.json());
 
 app.use(accessLogger);
