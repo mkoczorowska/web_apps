@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+<nav>
+    <a href="/">Strona główna</a>
+    <a href="/kontakt">Kontakt</a>
+</nav>
+
+<main>
+    <h1>Kontakt</h1>
+
+    <form action="/kontakt" method="GET">
+
+        <label for="name">Imię:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Adres e-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Treść wiadomości:</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+
+        <button type="submit">Wyślij</button>
+
+    </form>
+</main>
+
+<footer>
+    Stronę wykonała mania | 2026
+</footer>
+
+</body>
+</html>
