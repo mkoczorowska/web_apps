@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteka online</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Biblioteka online</h1>
+
+    <nav>
+        <a href="/">Strona główna</a>
+        <a href="/add">Dodaj książkę</a>
+        <a href="/about">O aplikacji</a>
+        <a href="/books">Książki JSON</a>
+    </nav>
+</header>
+
+<main>
+    <h2>Witaj w bibliotece online</h2>
+
+    <p>
+        Tutaj możesz przeglądać dostępne książki oraz dodawać nowe pozycje.
+    </p>
+
+    <h2>Dostępne książki</h2>
+
+    <div id="books"></div>
+</main>
+
+<script>
+    fetch("/books")
+        .then(response => response.json())
+        .then(books => {
+            const container = document.getElementById("books");
+
+            books.forEach(book => {
+                const article = document.createElement("article");
+
+                article.innerHTML = `
+                        <h3>${book.title}</h3>
+                        <p>Autor: ${book.author}</p>
+                        <p>Rok wydania: ${book.year}</p>
+                    `;
+
+                container.appendChild(article);
+            });
+        })
+        .catch(error => {
+            console.error("Błąd:", error);
+        });
+</script>
+
+</body>
+</html>

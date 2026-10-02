@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "title": "Wiedźmin: Ostatnie życzenie",
+        "author": "Andrzej Sapkowski",
+        "year": 1993
+    },
+    {
+        "id": 2,
+        "title": "Harry Potter i Kamień Filozoficzny",
+        "author": "J.K. Rowling",
+        "year": 1997
+    },
+    {
+        "id": 3,
+        "title": "Hobbit",
+        "author": "J.R.R. Tolkien",
+        "year": 1937
+    },
+    {
+        "id": 4,
+        "title": "swiat mani",
+        "author": "mania",
+        "year": 2026
+    },
+    {
+        "id": 5,
+        "title": "m",
+        "author": "m",
+        "year": 2008
+    }
+]
