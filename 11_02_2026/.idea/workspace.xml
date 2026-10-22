@@ -5,42 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d44b021-dfb7-4c6e-8593-120192c04fdc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../04_02_2026/src/components/post/post.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04_02_2026/src/components/post/post.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Categories/Categories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Categories/categories.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Home/Home.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Home/home.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Post/Post.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Post/post.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Posts/Posts.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Posts/posts.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_02_2026/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../04_02_2026/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_02_2026/src/components/posts/posts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../04_02_2026/src/components/posts/posts.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_02_2026/src/components/types/post.js" beforeDir="false" afterPath="$PROJECT_DIR$/../04_02_2026/src/components/types/post.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/07_01_2026.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/categories/categories.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/categories/categories.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/homepage/homepage.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/homepage/homepage.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navbar/navbar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/navbar.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navbar/navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/posts/posts.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/posts/posts.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/types/post.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblioteka-online/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblioteka-online/.idea/biblioteka-online.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblioteka-online/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblioteka-online/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblioteka-online/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblioteka-online/data/books.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblioteka-online/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblioteka-online/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblioteka-online/public/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblioteka-online/routes/booksRouter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblioteka-online/routes/infoRouter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblioteka-online/views/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblioteka-online/views/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../biblioteka-online/views/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,9 +35,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="3C5P6vg4CD0AXrYVwZLyi54Q49k" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -71,7 +49,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
     "last_opened_file_path": "/Users/mariakoczorowska/Desktop/web_apps/11_02_2026/src/components/Navbar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -80,7 +60,8 @@
     "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
     "npm.npm start.executor": "Run",
-    "ts.external.directory.path": "/Users/mariakoczorowska/Desktop/web_apps/11_02_2026/node_modules/typescript/lib",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -126,6 +107,7 @@
       <option name="presentableId" value="Default" />
       <updated>1775672285371</updated>
       <workItem from="1775672286407" duration="3188000" />
+      <workItem from="1790982150705" duration="1000" />
     </task>
     <servers />
   </component>
@@ -136,9 +118,8 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/Navbar/Navbar.tsx</url>
+          <url>file://$PROJECT_DIR$/src/components/navbar/Navbar.tsx</url>
           <line>4</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>

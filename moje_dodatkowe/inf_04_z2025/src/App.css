@@ -1,0 +1,32 @@
+.categories {
+    margin-bottom: 20px;
+}
+
+.categories label {
+    margin-right: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.photo {
+    text-align: center;
+}
+
+.photo img {
+    margin: 5px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.photo h4 {
+    margin: 5px;
+}
+
+.photo button {
+    padding: 8px 15px;
+    cursor: pointer;
+}
